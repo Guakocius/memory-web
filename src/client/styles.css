@@ -26,6 +26,30 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
+.select-memory {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 769px) {
+  .select-memory{grid-template-columns: repeat(3, 1fr);}
+}
+
+@media (min-width: 1200px) {
+  .select-memory{grid-template-columns: repeat(4, 1fr);}
+}
+
+.memory-set {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
 #app {
   padding: 1rem;
 }
