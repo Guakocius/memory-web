@@ -1,3 +1,10 @@
+# [1.2.0-dev.4](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.3...1.2.0-dev.4) (2026-04-10)
+
+
+### Features
+
+* better css ([fee928a](https://github.com/Atomarverseucht/memory-web/commit/fee928ac89f25a7f72f6d4a818bb78f4616418ec))
+
 # [1.2.0-dev.3](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.2...1.2.0-dev.3) (2026-04-10)
 
 
