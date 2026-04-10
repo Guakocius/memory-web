@@ -1,3 +1,10 @@
+# [1.2.0-dev.3](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.2...1.2.0-dev.3) (2026-04-10)
+
+
+### Features
+
+* added field to room page ([ed54822](https://github.com/Atomarverseucht/memory-web/commit/ed5482233fa2a3623f2cb4ef510f294a96eb0f62))
+
 # [1.2.0-dev.2](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.1...1.2.0-dev.2) (2026-04-09)
 
 
