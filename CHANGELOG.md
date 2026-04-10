@@ -1,3 +1,5 @@
+# [1.2.0-dev.5](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.4...1.2.0-dev.5) (2026-04-10)
+
 # [1.2.0-dev.4](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.3...1.2.0-dev.4) (2026-04-10)
 
 
