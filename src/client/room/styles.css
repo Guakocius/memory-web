@@ -4,6 +4,29 @@
   custom-blue: #007faa;
 }
 
+input {
+    flex: 1;
+    border-radius: 20px;
+    border: 1px solid gray;
+    border-style: solid black;
+
+    max-width: 70%;
+}
+
+.nameSection {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+
+.name-submit {
+    border-radius: 10%
+}
+
+button {
+    background-color: var(custom-blue);
+}
+
 main {
   display: flex;
 }
@@ -18,7 +41,7 @@ main {
     section {
         display: flex;
 
-        border-radius: 30%;
+        border-radius: 20%;
         border: black solid 1px;
 
         margin: 20px 20px;
@@ -33,42 +56,6 @@ main {
 }
 .closed {
     background-color: gray;
-}
-
-input {
-    flex: 1;
-    border-radius: 20px;
-    border: 1px solid gray;
-    border-style: solid black;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nameSection {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 10px;
-}
-
-button {
-    background-color: var(custom-blue);
-
-    transition: box-shadow .2s ease;
-
-    animation-name: blink;
-    animation-duration: 3s;
-    animation-timing-function: steps(30);
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes blink {
-    to {
-        background-color: blue;
-        color: black;
-    }
 }
 
 #leaderboardID {
