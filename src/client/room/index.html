@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>memory - room</title>
-    <link rel="stylesheet" href="./styles.css" />
+  <meta charset="UTF-8">
+  <title>memory - room</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="joining.js"></script>
 </head>
-<body>
+
+<body onload="joinRoom()">
+  <header>
     <h1>Memory - Room</h1>
+  </header>
+
+  <br>
+
+  <article>
     <section class="nameSection">
-        <label for="name_input">Username:</label>
-        <input id="name_input" />
-        <button id="name_submit">Submit</button>
+      <label for="name-input">Username:</label>
+      <input id="name-input" type="text" placeholder="Max Mustermann"></input>
+      <button id="name-submit" onclick="addPlayer()">Submit</button>
     </section>
+  </article>
+
+  <main>
     <section id="board" class="board">
-        <script>
-            const segment = '<section class="closed">' +
-                ' <p></p>' +
-                '</section>';
-            document.getElementById('board').innerHTML = segment.repeat(56);
-        </script>
+      <script>
+        const segment = '<section class="closed">' +
+          ' <p></p>' +
+          '</section>';
+        document.getElementById('board').innerHTML = segment.repeat(56);
+      </script>
+    </section>
+
+    <section class="lbSection">
+      <p id="leaderboard_p"></p>
+      <script>
+        initLeaderboard();
+      </script>
+    </section>
+
+    <main>
 </body>
+
 </html>

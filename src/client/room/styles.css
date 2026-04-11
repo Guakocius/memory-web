@@ -1,15 +1,28 @@
 @import url('../styles.css');
 
+:root {
+  custom-blue: #007faa;
+}
+
+main {
+  display: flex;
+}
+
 .board {
     display: grid;
-    grid-template-columns: repeat(8, 12vw);
-    grid-template-rows: repeat(8, 12vw);
+    grid-template-columns: repeat(8, 10.25vw);
+    grid-template-rows: repeat(8, 10.25vw);
     :hover {
-        background-color: blue;
+        background-color: darkslateblue;
     }
     section {
-        border: black solid 1px;
         display: flex;
+
+        border-radius: 30%;
+        border: black solid 1px;
+
+        margin: 20px 20px;
+
         justify-content: center;
         align-items: center;
         img {
@@ -24,7 +37,13 @@
 
 input {
     flex: 1;
+    border-radius: 20px;
     border: 1px solid gray;
+    border-style: solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nameSection {
@@ -34,6 +53,28 @@ input {
 }
 
 button {
-    background-color: midnightblue;
-    color: white;
+    background-color: var(custom-blue);
+
+    transition: box-shadow .2s ease;
+
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-timing-function: steps(30);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    to {
+        background-color: blue;
+        color: black;
+    }
+}
+
+#leaderboardID {
+  tr,
+  td {
+    background-color: darkcyan;
+    border: 1px solid darkblue;
+  }
 }

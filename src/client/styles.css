@@ -26,6 +26,21 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
+header {
+  background-color: #00008f;
+  color: #00afff;
+  border-radius: 10px;
+  border-style: groove black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article > h2 {
+  color: darkorchid;
+}
+
 .select-memory {
   display: grid;
   grid-template-columns: repeat(3, 33%);
@@ -34,11 +49,11 @@ h6 {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .select-memory{grid-template-columns: repeat(4, 25%);}
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1280px) {
   .select-memory{grid-template-columns: repeat(5, 20%);}
 }
 
