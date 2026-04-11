@@ -18,7 +18,7 @@ function initLeaderboard() {
 }
 
 function playerAsTB(v, key) {
-  g_pl += "<tr><td>" + key + "</td><td>" + v + "</td></tr>";
+  g_pl += "<tr id='new-player-id' ><td id='player-name' >" + key + "</td><td id='player-score' >" + v + "</td></tr>";
   // alert("new g_pl:\n" + g_pl);
 }
 
