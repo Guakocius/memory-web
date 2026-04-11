@@ -1,3 +1,10 @@
+# [1.2.0-dev.8](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.7...1.2.0-dev.8) (2026-04-11)
+
+
+### Bug Fixes
+
+* some css and js in src/client/room/ ([a91d216](https://github.com/Atomarverseucht/memory-web/commit/a91d216ad3e9d8e4e1d3f9aed3e59e1b10aa064e))
+
 # [1.2.0-dev.7](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.6...1.2.0-dev.7) (2026-04-11)
 
 
