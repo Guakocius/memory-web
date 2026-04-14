@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <title>memory - room</title>
   <link rel="stylesheet" href="./styles.css" />
-  <script src="joining.js"></script>
+  <script src="script.js"></script>
 </head>
 
-<body onload="joinRoom()">
+<body>
   <header>
     <h1>Memory - Room</h1>
   </header>
@@ -18,7 +18,7 @@
   <article>
     <section class="nameSection">
       <label for="name-input">Username:</label>
-      <input id="name-input" type="text" placeholder="Max Mustermann"></input>
+      <input id="name-input" type="text" placeholder="Max Mustermann" />
       <button id="name-submit" onclick="addPlayer()">Submit</button>
     </section>
   </article>
@@ -29,8 +29,11 @@
         const segment = '<section class="closed">' +
           ' <p></p>' +
           '</section>';
-        document.getElementById('board').innerHTML = segment.repeat(56);
+        document.getElementById('board').innerHTML = segment.repeat(55);
       </script>
+      <section>
+        <img src="https://cdn.pixabay.com/photo/2026/03/17/12/10/hoggyart-black-and-white-10178638_1280.jpg" alt="young dog" />
+      </section>
     </section>
 
     <section class="lbSection">
@@ -39,8 +42,6 @@
         initLeaderboard();
       </script>
     </section>
-
-    <main>
-</body>
-
+    </main>
+  </body>
 </html>

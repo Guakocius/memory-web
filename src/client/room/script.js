@@ -2,10 +2,6 @@ let tb_player = new Map();
 let g_pl = "";
 let oldInnerHTML = "";
 
-function joinRoom() {
-  const msg = "Somebody joined the room!";
-  alert(msg);
-}
 
 function initLeaderboard() {
   let tblStart = "<table id='leaderboardID'>";
@@ -31,7 +27,7 @@ function uptLeaderboard() {
 
 function addPlayer() {
   let name = document.getElementById("name-input").value;
-  if (name != "") {
+  if (name !== "") {
     tb_player.set(name, 0);
   }
   uptLeaderboard();

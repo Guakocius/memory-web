@@ -1,7 +1,7 @@
 @import url('../styles.css');
 
 :root {
-  custom-blue: #007faa;
+  --custom-blue: #007faa;
 }
 
 input {
@@ -24,7 +24,7 @@ input {
 }
 
 button {
-    background-color: var(custom-blue);
+    background-color: var(--custom-blue);
 }
 
 main {
@@ -39,13 +39,8 @@ main {
         background-color: darkslateblue;
     }
     section {
-        display: flex;
-
         border-radius: 20%;
         border: black solid 1px;
-
-        margin: 20px 20px;
-
         justify-content: center;
         align-items: center;
         img {
