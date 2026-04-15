@@ -1,3 +1,24 @@
+# [1.2.0](https://github.com/Atomarverseucht/memory-web/compare/1.1.0...1.2.0) (2026-04-15)
+
+
+### Bug Fixes
+
+* ... ([695597b](https://github.com/Atomarverseucht/memory-web/commit/695597b348ee77f43f18789be0035e35ce7d1112))
+* better style ([19a411d](https://github.com/Atomarverseucht/memory-web/commit/19a411d8b50f633b5eb0a38292700c931ec22f48))
+* better style ([3fc651f](https://github.com/Atomarverseucht/memory-web/commit/3fc651f2f4015cc18165391f68f7b93c84ae8376))
+* css stuff ([c57b1fd](https://github.com/Atomarverseucht/memory-web/commit/c57b1fd5cd79fc9775b3e78cdb633dfae7f0fae6))
+* implemented more css stuff and created a new json file ([fd9285e](https://github.com/Atomarverseucht/memory-web/commit/fd9285e5f83f17d41730ec27678e4ea585b16857))
+* some css and js in src/client/room/ ([a91d216](https://github.com/Atomarverseucht/memory-web/commit/a91d216ad3e9d8e4e1d3f9aed3e59e1b10aa064e))
+* some style ([0502b8a](https://github.com/Atomarverseucht/memory-web/commit/0502b8a4a54f919c0e6f21e7e233269bd358fc4b))
+
+
+### Features
+
+* added field to room page ([ed54822](https://github.com/Atomarverseucht/memory-web/commit/ed5482233fa2a3623f2cb4ef510f294a96eb0f62))
+* better css ([fee928a](https://github.com/Atomarverseucht/memory-web/commit/fee928ac89f25a7f72f6d4a818bb78f4616418ec))
+* better resize ([59e55c6](https://github.com/Atomarverseucht/memory-web/commit/59e55c6186ddedb5895774da83a24826ed172907))
+* hover effect ([05eeab7](https://github.com/Atomarverseucht/memory-web/commit/05eeab77100510fd391a8251189f96ec5357031a))
+
 # [1.2.0-dev.12](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.11...1.2.0-dev.12) (2026-04-15)
 
 
