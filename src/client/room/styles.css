@@ -1,0 +1,78 @@
+@import url('../styles.css');
+
+:root {
+  --custom-blue: #007faa;
+}
+
+input {
+    flex: 1;
+    border-radius: 10%;
+    max-width: 70%;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+td:nth-child(1) {
+    width: 13%;
+}
+
+td:nth-child(2) {
+    width: 5%;
+}
+.nameSection {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+
+.name-submit {
+    border-radius: 10%
+}
+
+button {
+    background-color: var(--custom-blue);
+    :hover{
+        background-color: lightgoldenrodyellow;
+    }
+}
+
+main {
+  display: flex;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 10vw);
+    grid-template-rows: repeat(8, 10vw);
+    :hover {
+        background-color: darkslateblue;
+    }
+    button {
+        border-radius: 20%;
+        justify-content: center;
+        align-items: center;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}
+.closed {
+    background-color: gray;
+}
+
+#leaderboardID {
+  tr,
+  td {
+    background-color: darkcyan;
+    border: 1px solid darkblue;
+  }
+}
+
+#leaderboardID,
+#player-name,
+#player-score {
+  text-align: center;
+}
