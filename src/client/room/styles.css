@@ -3,9 +3,7 @@
 :root {
   --custom-blue: #007faa;
 }
-body {
-    background-color: rosybrown;
-}
+
 input {
     flex: 1;
     border-radius: 10%;
