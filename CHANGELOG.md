@@ -1,3 +1,10 @@
+# [1.2.0-dev.12](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.11...1.2.0-dev.12) (2026-04-15)
+
+
+### Bug Fixes
+
+* some style ([0502b8a](https://github.com/Atomarverseucht/memory-web/commit/0502b8a4a54f919c0e6f21e7e233269bd358fc4b))
+
 # [1.2.0-dev.11](https://github.com/Atomarverseucht/memory-web/compare/1.2.0-dev.10...1.2.0-dev.11) (2026-04-15)
 
 
