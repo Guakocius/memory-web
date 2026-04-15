@@ -1,0 +1,14 @@
+[package]
+name = "memory-web"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+  "shared",
+  "backend",
+  "frontend",
+]
+resolver = "2"
+
+[dependencies]
