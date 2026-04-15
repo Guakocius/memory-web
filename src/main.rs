@@ -1,3 +1,7 @@
+use leptos::prelude::*;
+
+mod app;
+
 fn main() {
-    println!("Hello, world!");
+    mount_to_body(app::App)
 }
